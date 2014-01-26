@@ -31,6 +31,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 5679087616
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/gardalte/include
 
 # Kernel
+BOARD_KERNEL_CMDLINE += datapart=/dev/mmcblk1p2
 TARGET_KERNEL_CONFIG := cyanogenmod_gardalte_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/gardalte
 

@@ -1,0 +1,11 @@
+on init
+    # Actual /data and /cache are too small, so create partitions on SD card instead
+    chmod 700 /ubuntu-sd-partitioner.sh
+    start sdpartitioner
+    wait /tmp/ubuntu-partitions-created 1800
+
+on boot
+
+service sdpartitioner /sbin/sh /ubuntu-sd-partitioner.sh
+    oneshot
+    disabled

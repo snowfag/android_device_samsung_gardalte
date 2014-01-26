@@ -33,8 +33,10 @@ TARGET_SCREEN_WIDTH := 480
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.universal3470 \
+    init.recovery.universal3470.rc \
     init.universal3470.rc \
     init.universal3470.usb.rc \
+    ubuntu-sd-partitioner.sh \
     ueventd.universal3470.rc
 
 # Audio
