@@ -155,15 +155,15 @@ lib/omx/libOMX.Exynos.MPEG4.Encoder.so
 # Radio
 bin/at_distributor
 bin/IPSecService
-bin/rild
+#bin/rild
 etc/plmn_delta.bin
 etc/plmn_se13.bin
 lib/libatparser.so
 lib/libfactoryutil.so
 lib/libomission_avoidance.so
-lib/libril.so
+#lib/libril.so
 lib/libsecnativefeature.so
-lib/libsecril-client.so
+#lib/libsecril-client.so
 lib/libsec-ril.so
 
 # Sensors
