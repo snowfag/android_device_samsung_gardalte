@@ -32,7 +32,7 @@ TARGET_SPECIFIC_HEADER_PATH := device/samsung/gardalte/include
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_gardalte_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/exynos3470
+TARGET_KERNEL_SOURCE := kernel/samsung/gardalte
 
 # Audio
 BOARD_USES_LIBMEDIA_WITH_AUDIOPARAMETER := true
