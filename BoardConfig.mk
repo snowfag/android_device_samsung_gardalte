@@ -28,7 +28,7 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1468006400
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 5679087616
 
 # Include path
-TARGET_SPECIFIC_HEADER_PATH := device/samsung/gardalte/include
+TARGET_SPECIFIC_HEADER_PATH += device/samsung/gardalte/include
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_gardalte_defconfig
