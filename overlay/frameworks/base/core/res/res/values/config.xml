@@ -148,4 +148,7 @@
     <!-- Whether UI for multi user should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
 
+    <!-- Enable support for legacy GPS HALs -->
+    <bool name="config_legacyGpsHAL">true</bool>
+
 </resources>
