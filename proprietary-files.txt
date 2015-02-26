@@ -54,9 +54,6 @@ vendor/lib/hw/hwcomposer.exynos3.so
 # Keystore
 vendor/lib/hw/keystore.exynos3.so
 
-# Lights
-vendor/lib/hw/lights.exynos3.so
-
 # LPM
 bin/lpm
 lib/libQmageDecoder.so
@@ -135,7 +132,6 @@ lib/libakm.so
 # Wifi
 bin/macloader
 etc/wifi/bcmdhd_apsta.bin_b2
-etc/wifi/bcmdhd_mfg.bin_b2
 etc/wifi/bcmdhd_p2p.bin_b2
 etc/wifi/bcmdhd_sta.bin_b2
 etc/wifi/nvram_net.txt
