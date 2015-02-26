@@ -4,7 +4,7 @@ vendor/firmware/BT_FW_VER_BCM4334B0_002.001.013.1810.2178_Garda_ORC.hcd
 
 # Camera
 lib/libhwjpeg.so
-vendor/lib/hw/camera.universal3470.so
+vendor/lib/hw/camera.vendor.universal3470.so
 
 # DRM
 etc/srm.bin

@@ -40,6 +40,10 @@ BOARD_USES_LIBMEDIA_WITH_AUDIOPARAMETER := true
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/gardalte/bluetooth
 
+# Camera
+TARGET_PROVIDES_CAMERA_HAL := true
+COMMON_GLOBAL_CFLAGS += -DDISABLE_HW_ID_MATCH_CHECK
+
 # Recovery
 TARGET_RECOVERY_DEVICE_DIRS += device/samsung/gardalte
 TARGET_RECOVERY_FSTAB := device/samsung/gardalte/rootdir/etc/fstab.universal3470
