@@ -48,6 +48,26 @@ COMMON_GLOBAL_CFLAGS += -DDISABLE_HW_ID_MATCH_CHECK
 TARGET_RECOVERY_DEVICE_DIRS += device/samsung/gardalte
 TARGET_RECOVERY_FSTAB := device/samsung/gardalte/rootdir/etc/fstab.universal3470
 
+# SELinux
+BOARD_SEPOLICY_DIRS += \
+   device/samsung/gardalte/sepolicy
+
+BOARD_SEPOLICY_UNION += \
+    file_contexts \
+    service_contexts \
+    device.te \
+    domain.te \
+    drmserver.te \
+    file.te \
+    gpsd.te \
+    init.te \
+    mediaserver.te \
+    servicemanager.te \
+    system_app.te \
+    system_server.te \
+    vold.te \
+    wpa.te
+
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_gardalte
