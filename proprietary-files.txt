@@ -109,6 +109,23 @@ lib/libgdmcprov.so
 lib/libMcClient.so
 lib/libMcRegistry.so
 
+# OMX
+etc/ExynosOMXReg.conf
+lib/libExynosOMX263d.so
+lib/libExynosOMX264d.so
+lib/libExynosOMXCmn.so
+lib/libExynosOMX_Core.so
+lib/libExynosOMXCore.so
+lib/libExynosOMXMp4vd.so
+lib/libExynosOMX_Resourcemanager.so
+lib/libExynosOMXVc1d.so
+lib/libExynosVideoApi.so
+lib/libstagefrighthw.so
+lib/omx/libOMX.Exynos.AVC.Decoder.so
+lib/omx/libOMX.Exynos.AVC.Encoder.so
+lib/omx/libOMX.Exynos.MPEG4.Decoder.so
+lib/omx/libOMX.Exynos.MPEG4.Encoder.so
+
 # Radio
 bin/at_distributor
 bin/IPSecService
