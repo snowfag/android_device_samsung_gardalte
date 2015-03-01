@@ -34,9 +34,6 @@ TARGET_SPECIFIC_HEADER_PATH += device/samsung/gardalte/include
 TARGET_KERNEL_CONFIG := cyanogenmod_gardalte_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/gardalte
 
-# Audio
-BOARD_USES_LIBMEDIA_WITH_AUDIOPARAMETER := true
-
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/gardalte/bluetooth
 
