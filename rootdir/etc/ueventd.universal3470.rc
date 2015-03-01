@@ -62,3 +62,7 @@
 /dev/ttyGS2               0660   system     system
 /dev/ttyGS3               0660   system     system
 /dev/umts_router          0660   system     system
+
+# Sensor
+/dev/akm8963              0600   system     radio
+/dev/accelerometer        0600   system     radio
