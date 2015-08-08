@@ -39,8 +39,3 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/gardalte/bluetooth
 
 # Recovery
 TARGET_RECOVERY_FSTAB := device/samsung/gardalte/rootdir/etc/fstab.universal3470
-
-# Vendor Init
-TARGET_UNIFIED_DEVICE := true
-TARGET_INIT_VENDOR_LIB := libinit_gardalte
-TARGET_LIBINIT_DEFINES_FILE := device/samsung/gardalte/init/init_gardalte.c
