@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
 # Ubuntu Overlay Files
 PRODUCT_COPY_FILES += \
     device/samsung/gardalte/ubuntu/udev.rules:system/ubuntu/lib/udev/rules.d/70-android.rules \
-    device/samsung/gardalte/ubuntu/powerd-config.xml:system/ubuntu/usr/share/powerd/device_configs/config-default.xml \
     device/samsung/gardalte/ubuntu/display.conf:system/ubuntu/etc/ubuntu-touch-session.d/android.conf
 
 # Dalvik VM specific for devices with 1024 MB of RAM
