@@ -215,9 +215,9 @@ on fs
     rm /data/sv_cno.info
 
     # Permissions for backlight
-    chmod 0660 /sys/class/backlight/panel/brightness
+    chmod 0666 /sys/class/backlight/panel/brightness
     chown system system /sys/class/backlight/panel/brightness
-    chmod 0660 /sys/class/backlight/panel/auto_brightness
+    chmod 0666 /sys/class/backlight/panel/auto_brightness
     chown system system /sys/class/backlight/panel/auto_brightness
 
     # Permissions for LCD
