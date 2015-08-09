@@ -25,9 +25,8 @@ on init
     symlink /storage/emulated/legacy /mnt/sdcard
     symlink /storage/emulated/legacy /storage/sdcard0
     symlink /mnt/shell/emulated/0 /storage/emulated/legacy
-    symlink /storage/sdcard1 /extSdCard
-    symlink /storage/sdcard1 /mnt/extSdCard
     symlink /storage/sdcard1 /external_sd
+    symlink /storage/sdcard1 /mnt/external_sd
 
     # For audit message
     chown system system /proc/avc_msg
@@ -287,11 +286,6 @@ service mobicore /system/bin/mcDriverDaemon -r /system/app/FFFFFFFF0000000000000
     class core
     user system
     group system
-
-# GSM/HSDPA data workaround
-service data_workaround /system/bin/enable_data
-    user root
-    disabled
 
 # GSM/HSDPA data Workaroud
 on property:gsm.defaultpdpcontext.active=true

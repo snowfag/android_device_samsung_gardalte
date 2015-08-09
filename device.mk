@@ -59,8 +59,8 @@ PRODUCT_COPY_FILES += \
 
 # Ubuntu Overlay Files
 PRODUCT_COPY_FILES += \
-    device/samsung/gardalte/ubuntu/udev.rules:system/ubuntu/lib/udev/rules.d/70-android.rules \
-    device/samsung/gardalte/ubuntu/display.conf:system/ubuntu/etc/ubuntu-touch-session.d/android.conf
+   $(LOCAL_PATH)/ubuntu/udev.rules:system/ubuntu/lib/udev/rules.d/70-android.rules \
+   $(LOCAL_PATH)/ubuntu/display.conf:system/ubuntu/etc/ubuntu-touch-session.d/android.conf
 
 # Dalvik VM specific for devices with 1024 MB of RAM
 $(call inherit-product-if-exists, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
