@@ -31,7 +31,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 5679087616
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/gardalte/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_gardalte_defconfig
+TARGET_KERNEL_CONFIG := gardalte_00_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/gardalte
 
 # Bluetooth
@@ -71,6 +71,7 @@ TARGET_INIT_VENDOR_LIB := libinit_gardalte
 TARGET_LIBINIT_DEFINES_FILE := device/samsung/gardalte/init/init_gardalte.c
 
 # TWRP
+RECOVERY_VARIANT := twrp
 DEVICE_RESOLUTION := 480x800
 RECOVERY_SDCARD_ON_DATA := true
 BOARD_HAS_NO_REAL_SDCARD := true

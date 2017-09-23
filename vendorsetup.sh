@@ -1,3 +1,3 @@
-add_lunch_combo cm_gardalte-eng
-add_lunch_combo cm_gardalte-user
-add_lunch_combo cm_gardalte-userdebug
+add_lunch_combo lineage_gardalte-eng
+add_lunch_combo lineage_gardalte-user
+add_lunch_combo lineage_gardalte-userdebug
